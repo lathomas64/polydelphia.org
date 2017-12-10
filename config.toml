@@ -1,4 +1,4 @@
-baseURL = "https://polydelphia.github.io/polydelphia/"
+baseURL = "https://polydelphia.github.io/polydelphia.org/"
 languageCode = "en-us"
 title = "Polydelphia!!!!!!!"
 theme = "ananke"

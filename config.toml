@@ -1,0 +1,5 @@
+baseURL = "https://polydelphia.github.io/polydelphia/"
+languageCode = "en-us"
+title = "Polydelphia!!!!!!!"
+theme = "ananke"
+publishDir = "docs"

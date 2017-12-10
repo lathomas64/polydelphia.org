@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Polydelphia!!!!!!!</title>
-    <link>https://polydelphia.github.io/polydelphia/</link>
+    <link>https://polydelphia.github.io/polydelphia.org/</link>
     <description>Recent content on Polydelphia!!!!!!!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 10 Dec 2017 16:10:39 -0500</lastBuildDate>
     
-	<atom:link href="https://polydelphia.github.io/polydelphia/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://polydelphia.github.io/polydelphia.org/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>My First Post</title>
-      <link>https://polydelphia.github.io/polydelphia/posts/my-first-post/</link>
+      <link>https://polydelphia.github.io/polydelphia.org/posts/my-first-post/</link>
       <pubDate>Sun, 10 Dec 2017 16:10:39 -0500</pubDate>
       
-      <guid>https://polydelphia.github.io/polydelphia/posts/my-first-post/</guid>
+      <guid>https://polydelphia.github.io/polydelphia.org/posts/my-first-post/</guid>
       <description>Look, I made a post!</description>
     </item>
     

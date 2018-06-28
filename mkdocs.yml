@@ -1,0 +1,58 @@
+# Site information
+site_name: 'Polydelphia'
+site_description: 'Polyamorous community for the Philadelphia area.'
+site_author: 'Polydelphia Steering Committee'
+# TODO: Publish and change this to the real site URL.
+#site_url: 'http://127.0.0.1:8000'
+
+# Repository
+# TODO: Would this be useful or more trouble than its worth?
+# repo_name: 'polydelphia/polydelphia.org'
+# repo_url: 'https://github.com/polydelphia/polydelphia.org'
+
+# Copyright
+copyright: 'Copyright &copy; 2018 Polydelphia Steering Committee'
+
+# Theme configuration
+theme:
+  name: 'material'
+  palette:
+    primary: 'deep purple'
+    accent: 'blue grey'
+  logo:
+    icon: 'all_inclusive'
+  favicon: 'assets/images/favicon.png'
+# TODO: Is this a useful organizational tool?
+#  feature:
+#    tabs: true
+
+# TODO: Google Analytics
+#google_analytics:
+#  - 'UA-XXXXXXXX-X'
+#  - 'auto'
+
+# Extensions
+markdown_extensions:
+  - admonition
+  - footnotes
+  - meta
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.emoji:
+  - pymdownx.magiclink # Had to remove the line about emoji_generator due to error, not sure if that broke anything. See https://github.com/squidfunk/mkdocs-material/issues/811
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+  - toc:
+      permalink: true
+
+# Pages
+pages:
+    - About: 'index.md'
+    - Contact: 'contact.md'
+    - Guidelines: 'guidelines.md'
+    - 'Event Hosting': 'event-hosting.md'
+    - 'Incident Reporting': 'incident-reporting.md'

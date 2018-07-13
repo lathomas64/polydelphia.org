@@ -1,37 +1,18 @@
-## Dev
+# Polydelphia Web Site
 
-### Install Hugo
+## Setup
 
-Download the distribution that matches your platform from [here](https://github.com/gohugoio/hugo/releases/tag/v0.31.1), decompress the archive, and move the `hugo` binary somewhere in your `$PATH` (`/usr/local/bin/` is usually a good place). It will be available as expected below when you open a new terminal or run `rehash` in your current one.
+- `git clone https://github.com/polydelphia/polydelphia.org` - Download the code from git.
+- `cd polydelphia.org` - Go into the code directory.
+- `git checkout mkdocs` - Check out the this branch of the code.
+- `pip install -r requirements.txt` - Install the python package requirements.
 
-```
-hugo help
-```
+## Commands
 
-Shows the built in documentation.
+- `mkdocs serve` - Start the development server. Visit https://127.0.0.1:8000 in your browser to see the site.
+- `mkdocs build` - Build the site for production deployment. No deployment strategy has been chosen yet, so there's not really any point in doing this.
 
-### Serve the site locally
+## More Info
 
-```
-hugo server -D
-```
-
-The site will include draft posts and automatically reload as you make changes to the source code. You can view it at [http://localhost:1313/polydelphia.org/](http://localhost:1313/polydelphia.org/).
-
-## Ops
-
-### Publish
-
-Make sure `hugo` is installed as described above (you should already have `git`).
-
-```
-./publish.sh
-```
-
-Checks that all source code changes are committed to `git`, deletes the `public` folder and checks out a fresh copy of the `gh-pages` branch into it, removes the existing build in that folder and generates a new one, and then commits that new build to the `gh-pages` branch.
-
-```
-git push origin gh-pages
-```
-
-Pushes the commit with the new build up to the remote. It will be visible at [https://polydelphia.github.io/polydelphia.org](https://polydelphia.github.io/polydelphia.org) shortly.
+- [MkDocs](https://www.mkdocs.org/) site build tool.
+- [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) site style theme.

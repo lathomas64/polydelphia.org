@@ -1,0 +1,10 @@
+language: python
+script: mkdocs build
+deploy:
+  provider: pages
+  local-dir: site
+  skip-cleanup: true
+  github-token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
+  keep-history: true
+  on:
+    branch: master

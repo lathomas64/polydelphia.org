@@ -54,3 +54,5 @@ Sometimes people aren’t awesome. If you have had a bad experience with a membe
 - The admins will take action (warning, suspension, or removal from group) based on these behaviors whether or not they occurred specifically at Polydelphia events.
 - To report an issue, reach out to a steering committee member individually or use our reporting form [here](https://docs.google.com/forms/d/e/1FAIpQLSdYNRZrq0KwiBtU9DUvF08WyV0DTEPZ-Am4bTdJv__ovx88eQ/viewform?usp=sf_link).
 - You can view a more detailed description of our reporting & safety processes [here](https://docs.google.com/document/d/1XXTUbotPsCjcyzvzPBlfU9Y-pbCHYrtAxAAXCIA-aRQ/edit?usp=sharing).
+
+### Don't Be Evil!!!
